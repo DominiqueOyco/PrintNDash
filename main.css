@@ -29,7 +29,7 @@ header li a{
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 header .weblogo{
@@ -71,4 +71,8 @@ header nav{
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+body{
+	background-color: #292F90;
 }
