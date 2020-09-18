@@ -1,0 +1,82 @@
+/*html{
+	scroll-behavior: smooth;
+}
+
+html, body{
+	height:100%; 
+	min-height: 100%
+	margin:0;
+}
+
+header{
+    background: rgba(248, 235, 215, 0.9);
+	font-family: 'Permanent Marker';
+	margin-top: -50px;
+	margin-left: -250px;
+	margin-right: -250px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	min-height: 150px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header li{
+	float: center;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 40px 30px 0 30px;
+}
+
+header li a{
+	color: #81652E;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#menu-items i{
+	color: #81652E;
+	font-size: 48px;
+}
+
+header .my-Name{
+	float: left;
+}
+
+header .my-Name h1{
+	margin-top: 0;
+	padding-top: 15px;
+}
+
+header .my-Name h1 a{
+	font-size: 48px;
+	font-family: 'Permanent Marker';
+	color: #81652E;
+	text-decoration: none;
+}
+
+header nav{
+	float: center;
+	margin-top: 15px;
+}
+
+header li a:hover{
+	background-color: black;
+	color: #FFC300;
+}
+
+#menu-items{
+	float: right;
+	margin-right: 1px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}*/
