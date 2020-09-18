@@ -1,22 +1,15 @@
-/*html{
+html{
 	scroll-behavior: smooth;
 }
 
-html, body{
-	height:100%; 
-	min-height: 100%
-	margin:0;
-}
-
 header{
-    background: rgba(248, 235, 215, 0.9);
-	font-family: 'Permanent Marker';
-	margin-top: -50px;
-	margin-left: -250px;
-	margin-right: -250px;
-	padding-top: 50px;
-	padding-bottom: 25px;
-	min-height: 150px;
+    background: white;
+	font-family: Open Sans;
+	margin: -10px;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	/*border-bottom: black 3px solid;*/
 }
 
 header ul{
@@ -29,54 +22,53 @@ header li{
 	float: center;
 	display: inline-block;
 	margin-left: 30px;
-	padding: 40px 30px 0 30px;
+	padding: 15px;
 }
 
 header li a{
-	color: #81652E;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 16px;
 }
 
-#menu-items i{
-	color: #81652E;
-	font-size: 48px;
-}
-
-header .my-Name{
+header .weblogo{
 	float: left;
 }
 
-header .my-Name h1{
-	margin-top: 0;
-	padding-top: 15px;
+header .weblogo h1{
+	margin: 0;
 }
 
-header .my-Name h1 a{
-	font-size: 48px;
-	font-family: 'Permanent Marker';
-	color: #81652E;
+header .weblogo h1 a{
+	font-size: 30px;
+	color: red;
 	text-decoration: none;
 }
 
 header nav{
-	float: center;
-	margin-top: 15px;
-}
-
-header li a:hover{
-	background-color: black;
-	color: #FFC300;
-}
-
-#menu-items{
 	float: right;
-	margin-right: 1px;
+	margin-top: 25px;
 }
+
+#menu-index-items li a{
+	background-color: none;
+	color: #292F90;
+	font-family: 'Open Sans';
+	padding: 15 0px;
+}
+
+#menu-index-items li a:hover{
+	color: black;
+}
+
+/*.header-search {
+	display: inline-block;
+	float: right;
+}*/
 
 .container{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
-}*/
+}
