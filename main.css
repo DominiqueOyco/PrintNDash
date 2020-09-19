@@ -58,6 +58,10 @@ header nav{
 	padding: 15 0px;
 }
 
+#menu-index-items li i{
+	font-size: 24px;
+}
+
 #menu-index-items li a:hover{
 	color: black;
 }
