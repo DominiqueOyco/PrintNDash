@@ -80,3 +80,16 @@ header nav{
 body{
 	background-color: #292F90;
 }
+
+.main-body{
+	margin: 30px;
+	background-color: white;
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+	margin: -10px;
+}
+
+
