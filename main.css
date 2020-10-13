@@ -79,6 +79,8 @@ header nav{
 
 body{
 	background-color: #292F90;
+	font-family: Open Sans;
+	color: black;
 }
 
 .main-body{
@@ -86,10 +88,56 @@ body{
 	background-color: white;
 }
 
+.shop-gallery-container{
+	padding-top: 15px;
+}
+
+.gallery {
+	display: flex;
+	margin: 15px 0;
+}
+
+.gallery-item {
+	position: relative;
+	display: block;
+	flex: 1 1 0px;
+	transition: transform 500ms;
+	margin: 0 2px;
+	text-decoration: none;
+	color: black;
+}
+
+.gallery-item img {
+	display: block;
+	padding: 2px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.gallery a{
+	text-align: center;
+}
+
+.item-price{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 100%) {
+	.gallery {
+		width: 100%;
+	}
+}
+
 footer{
 	background-color: white;
 	text-align: center;
+	font-family: 'Open Sans';
 	margin: -10px;
+	padding-bottom: 25px;
+}
+
+.footer-text{
+	padding: 10px;
 }
 
 
